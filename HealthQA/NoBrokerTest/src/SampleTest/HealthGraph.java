@@ -32,7 +32,7 @@ public class HealthGraph {
 		driver.findElement(By.xpath("//div[text()='Mumbai']")).click();
 		driver.findElement(By.id("listPageSearchLocality")).sendKeys("Malad");
 		
-		Thread.sleep(1000);
+		
 		Robot r =new Robot();
 	
 		r.keyPress(KeyEvent.VK_UP);
